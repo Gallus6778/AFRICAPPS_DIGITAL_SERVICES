@@ -1,0 +1,38 @@
+.menu-deroulant{
+	display: none;
+}
+
+.collapse ul li:hover .menu-deroulant{
+    display: block;
+    /*margin-top: 15px;*/
+    /*margin-left: 0px;*/
+    background: #fff;
+    position: absolute;
+    width: 395px
+}
+.collapse ul li:hover .menu-deroulant ul li{
+	list-style-type: none;
+	text-align: left;
+    /*margin-left: -15px;*/
+	color:#fff;
+}
+.collapse ul li:hover .menu-deroulant ul li:hover{
+	background-color: #3f51b5;
+	color: #fff;
+}
+.collapse ul li:hover .menu-deroulant ul {
+    display: block;
+}
+.collapse ul li:hover .menu-deroulant ul li {
+    /*width: 150px;*/
+    border-bottom: 1px dotted #3f51b5;
+    text-align: left;
+    /* background: transparent; */
+    margin-right: 35px;
+}
+.collapse ul li:hover .menu-deroulant ul li a:hover{
+	text-decoration: none;
+}
+.collapse ul li:hover .menu-deroulant ul li:last-child{
+	border-bottom: none;
+}
